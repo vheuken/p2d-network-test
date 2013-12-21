@@ -3,15 +3,15 @@
  <tileset firstgid="1" name="RockTile" tilewidth="32" tileheight="32">
   <image source="RockTile.png" width="192" height="192"/>
  </tileset>
+ <objectgroup name="Entities" width="60" height="45">
+  <object name="Player1" type="Movable" x="70" y="144" width="172" height="166"/>
+ </objectgroup>
  <layer name="collision" width="60" height="45">
   <properties>
    <property name="Collidable" value="1"/>
   </properties>
   <data encoding="base64" compression="zlib">
-   eJztmYkKwjAMhut9O8VjeL3/a5rSBsZY0sisxpoPfspWZf2ojS1z7j/ZQLaQCrKLaV/nfu6mYxy5wOeUljPhe4AcCwznWyJ9fQeQIWQEGUMmkOkbxpULqe8MMocsXHCkPH3WWUb6Hs6u27nt6+vXgMmvzLHU1zvNiFC+qzxD7oXEt+mKv+mlCz5rl3bGaEDiy7keYijffSManDlfdKBc/fUlhpvjOmaf0UNKH1/pOn7E1Bk9pHC+6ED5Suu0ppqdWr/c2p062fxq8+2C22+0nXENU77Nvci36euLzh5uz6Vl3/WKL+fMrV/8jAakvngeTtXqrj5NSH3xPHyK36kT97Ui9fX16Aq5Qe4u/J9y97Vi5/2A+ZaB+QbMtwzMN2C+ZWC+AfMtA/MNeN9vv6tNpSJarv+X3/+eiJbrp3zxXKs5N6Ll+u+Er2EYhmEYn+MJ/uAjRg==
+   eJzt1dkKwjAQheHRqnXBjbqgre//mk5oglKcJBY7ZfB8cPBGjD+VWBDRTHELGlelfN5F+bwu9A4Lvbpyeyd+U15B7d0z73Geld7ST+re8w4Zn2Old+sXa85psdJb+YXmWHeMld6bX2hOPWuJld5PTe/N/9Abm8RKr3uOS96Kt+ZtEpNY6XW/3R29/neOiUms9Lr3nXhnar/zNTGJlV53N995Na/hPRKTWOn9FfTqQu+wxu4N99C3q3u+NjpZAAAAAAAAAAAAAACqnk3hC9I=
   </data>
  </layer>
- <objectgroup name="Entities" width="60" height="45">
-  <object name="Player1" type="Movable" x="200" y="698" width="172" height="166"/>
- </objectgroup>
 </map>

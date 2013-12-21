@@ -1,7 +1,10 @@
-function onPhysicsUpdate()
-    view = GPurityEngine:getView()
-    
-    view:Move(0, 1)
+local startup = true
 
-    GPurityEngine:setView(view)
+function onPhysicsUpdate()
+    if startup == true then
+        print(GPurityNetwork:getLocalAddress())
+        print(GPurityNetwork:getPublicAddress())
+        startup = false
+    end
+
 end
