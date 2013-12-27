@@ -4,7 +4,8 @@
   <image source="RockTile.png" width="192" height="192"/>
  </tileset>
  <objectgroup name="Entities" width="60" height="45">
-  <object name="Player1" type="Movable" x="136" y="130" width="24" height="63"/>
+  <object name="Player2" type="Movable" x="407" y="176" width="24" height="63"/>
+  <object name="Player1" type="Movable" x="81" y="182" width="24" height="63"/>
  </objectgroup>
  <layer name="collision" width="60" height="45">
   <properties>
