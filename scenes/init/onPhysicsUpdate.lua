@@ -16,6 +16,8 @@ function onPhysicsUpdate()
             print("Running as a client...")
         end
         
+        GPurityNetwork:setServer(isServer)
         startup = false
     end
+    
 end
