@@ -9,14 +9,15 @@ function onPhysicsUpdate()
         print("Public IP Address: " .. GPurityNetwork:getPublicAddress())
         print("Port: " .. port)
         GPurityNetwork:setPort(port)
+        GPurityNetwork:setServer(isServer)
         
         if isServer then
             print("Running as a server...")
         else
             print("Running as a client...")
+            GPurityNetwork:connectToServer(server)
         end
         
-        GPurityNetwork:setServer(isServer)
         startup = false
     end
     
