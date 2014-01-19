@@ -1,6 +1,7 @@
-isServer = false
+isServer = true
 
-playerName = "Player2"
+playerName = "Player1"
 
 port = 54000
-server = "vincentheuken.com"
+server = "192.168.1.88"
+--server = "vincentheuken.com"

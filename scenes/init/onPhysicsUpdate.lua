@@ -13,12 +13,13 @@ function onPhysicsUpdate()
         
         if isServer then
             print("Running as a server...")
+            GPurityNetwork:initializeServer(port)
         else
             print("Running as a client...")
+            GPurityNetwork:initializeClient()
             GPurityNetwork:connectToServer(server)
         end
-        
+         
         startup = false
     end
-    
 end

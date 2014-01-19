@@ -13,6 +13,7 @@ function moveLeft (player)
         player:setLinearVelocity(-10, player:getLinearVelocityY())
     else
         GPurityNetwork:sendAction(player:getName(), "moveLeft")
+        print("H")
     end
 end
 
