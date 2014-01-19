@@ -8,8 +8,6 @@ function onPhysicsUpdate()
         print("Local IP Address: " .. GPurityNetwork:getLocalAddress())
         print("Public IP Address: " .. GPurityNetwork:getPublicAddress())
         print("Port: " .. port)
-        GPurityNetwork:setPort(port)
-        GPurityNetwork:setServer(isServer)
         
         if isServer then
             print("Running as a server...")
