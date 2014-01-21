@@ -15,6 +15,7 @@ function onPhysicsUpdate()
         else
             print("Running as a client...")
             GPurityNetwork:initializeClient()
+            GPurityNetwork:setPort(port)
             GPurityNetwork:connectToServer(server)
         end
          

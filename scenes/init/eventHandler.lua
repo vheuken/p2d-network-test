@@ -2,7 +2,7 @@ dofile("scenes/init/playerMovement.lua")
 
 function eventHandler(event)
     
-    player = GObjectManager:getMovableObjectByName(playerName)
+    player = GEntityManager:getMovableEntityByName(playerName)
     
     if (event.Type == Event.KeyPressed) then
         if (event.Key.Code == Keyboard.Left) then
