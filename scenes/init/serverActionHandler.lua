@@ -1,5 +1,5 @@
 function serverActionHandler(objectName, actionName)
-    player = GObjectManager:getMovableObjectByName(objectName)
+    player = GEntityManager:getMovableEntityByName(objectName)
 
     if (actionName == "moveLeft") then
         moveLeft(player)
